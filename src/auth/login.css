@@ -1,0 +1,77 @@
+/* Page background */
+.login-page {
+  min-height: 100vh;
+  background: #6b6b6b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* White card */
+.login-card {
+  background: #ffffff;
+  width: 520px;
+  padding: 50px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+/* Heading */
+.title {
+  margin-bottom: 30px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+/* Input group */
+.input-group {
+  background: #f3f3f3;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.input-group input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+/* Register text */
+.register-text {
+  margin: 24px 0;
+  color: #777;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.register-text:hover {
+  text-decoration: underline;
+}
+
+/* Login button */
+.login-btn {
+  width: 200px;
+  padding: 12px;
+  background: #6b3f75;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background: #5a3463;
+}

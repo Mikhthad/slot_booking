@@ -1,0 +1,80 @@
+.page1-container {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+}
+
+.calendar-section {
+  flex: 3;
+}
+
+.side-panel {
+  flex: 1;
+  background: #f7f5fb;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.weekday-row {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-bottom: 10px;
+}
+
+.weekday {
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+}
+
+.calendar-cell {
+  min-height: 90px;
+  padding: 6px;
+  border-radius: 6px;
+  background: #eee;
+  position: relative;
+  font-size: 12px;
+}
+
+.calendar-cell.selectable {
+  background: #e7ddff;
+  cursor: pointer;
+}
+
+.calendar-cell.selected {
+  background: #6f4ca3;
+  color: white;
+}
+
+.calendar-cell.disabled,
+.calendar-cell.outside {
+  background: #f0f0f0;
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+.date {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.slot-info {
+  margin-top: 10px;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background: #6f4ca3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
